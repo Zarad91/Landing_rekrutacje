@@ -1,7 +1,6 @@
 {
   "name": "taskrunner",
   "version": "1.0.0",
-  "description": "",
   "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
@@ -25,11 +24,20 @@
   "dependencies": {},
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "html-validate": "^2.8.0",
     "mkdirp": "^0.5.5",
     "node-sass": "^4.11.0",
     "npm-run-all": "^4.1.5",
     "onchange": "^5.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zarad91/Landing_rekrutacje-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zarad91/Landing_rekrutacje-/issues"
+  },
+  "homepage": "https://github.com/Zarad91/Landing_rekrutacje-#readme",
+  "description": ""
 }

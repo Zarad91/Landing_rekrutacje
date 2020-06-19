@@ -109,21 +109,41 @@ section {
 
 /* Skills */
 
-.box-1 {
+.skill-container {
   display: flex
+
 }
 
-.box-1-text {
-  bottom: -100px;
-}
- 
-.box-2 {
-  display: flex
-}
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
-.box-3 {
-  display: flex
-}
+.skill image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; }
+
+.skill-image img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover; }
+
+.skill.right .skill-image {
+  right: 0; }
+
+.skill.right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right; }
+
+.skill.left .skill-title {
+  padding: 36px 0 36px 55%;
+  text-align: left; }
+
+.skill-right img:hover {
+  transform: skewX(25deg);
+  transition: all 1s; }
 
 /* Form */
 .container .form {
