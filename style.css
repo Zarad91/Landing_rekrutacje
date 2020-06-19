@@ -1,0 +1,156 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+body {
+  margin: 0; }
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px; }
+
+body {
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Raleway";
+  font-family: "Nunito"; }
+
+section {
+  padding: 108px 0; }
+
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/15zNkjjC/photo-of-orange-book-beside-laptop-3747455-1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.splash i {
+  font-size: 30px;
+  background: #55efc4;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  border-radius: 50%; }
+
+.page-title {
+  color: #130f40;
+  font-size: 60px;
+  margin: 48px 0 0 0;
+  position: relative;
+  font-family: "Raleway";
+  font-family: "Nunito"; }
+
+.page-subtitle {
+  color: #55efc4;
+  font-size: 18px; }
+
+.page-title::after {
+  position: absolute;
+  content: '';
+  bottom: -24px;
+  left: 50%;
+  width: 100px;
+  height: 10px;
+  transform: translateX(-50%);
+  background: #55efc4; }
+
+.section-title {
+  position: relative;
+  margin: 0 0 60px 0;
+  font-size: 36px;
+  font-family: "Raleway";
+  font-family: "Nunito"; }
+
+.section-title::after {
+  box-sizing: border-box;
+  position: absolute;
+  content: ' ';
+  bottom: -12px;
+  left: 50%;
+  width: 50px;
+  height: 10px;
+  transform: translateX -50%;
+  background: #55efc4;
+  margin-left: -25px; }
+
+.section-title::before {
+  content: ' '; }
+
+/* Intro */
+.intro {
+  background: #fff; }
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: 2px solid #55efc4;
+  border-bottom: 2px solid #55efc4; }
+
+/* About */
+.about {
+  background: #90E6B5; }
+
+/* Skills */
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.skill image {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden; }
+
+.skill-image img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover; }
+
+.skill.right .skill-image {
+  right: 0; }
+
+.skill.right .skill-description {
+  padding: 36px 55% 36px 0;
+  text-align: right; }
+
+.skill.left .skill-title {
+  padding: 36px 0 36px 55%;
+  text-align: left; }
+
+.skill-right img:hover {
+  transform: skewX(25deg);
+  transition: all 1s; }
+
+/* Form */
+.container .form {
+  background-color: #0B0B0B; }
+  
+ input {
+    padding: 0 0;
+}
+
+/* Footer */
+.page-footer {
+  background: #242424;
+  color: #fff; }
+
+.intro {
+  font-weight: bold; }
