@@ -119,15 +119,28 @@ section {
 }
 
 .box-1-text {
- 
+  padding:120px 0 0 20px;  
 }
  
 .box-2 {
   display: flex
 }
 
+.box-2-text {
+  padding:120px 0 0 20px;   
+  justify-content: space-between; 
+}
+
+.box-2-image {
+  justify-content: space-between;
+} 
+
 .box-3 {
   display: flex
+}
+
+.box-3-text {
+  padding:120px 0 0 20px;    
 }
 
 /* Form */
